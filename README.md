@@ -20,7 +20,7 @@ Before the initial commit most of the permission errors got fixed. It isn't know
 Missing (external toolchain):
 -----------------------------
 
-To obtain (the pre-compiled, external) toolchain you can either inquire it from Arcadyan (Astoria), mail to opensource@arcadyan.com, or you can use one from another QTN-based/QTN-using device, like Netgear R7500 (URL: http://www.downloads.netgear.com/files/GPL/R7500-and_qtn_gpl_src_V1.0.0.94.zip) or ZyXEL VMG9823-B10A (you have to inquire it yourself)
+To obtain (the pre-compiled, external) toolchain you can either inquire it from Arcadyan (Astoria), mail to opensource@arcadyan.com, or you can use one from another QTN-based/QTN-using device, like Netgear R7500 (URL: https://www.downloads.netgear.com/files/GPL/R7500-and_qtn_gpl_src_v1.0.0.124.tar.bz2.zip) or ZyXEL VMG9823-B10A (you have to inquire it yourself)
 
 For testing and compilation of this source code the external toolchain from Netgear's R7500 was used. You need the QEnvInstaller.bin file (rename it to Qenvinstaller.bin) from their Quantenna GPL tarball.
 
