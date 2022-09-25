@@ -27,11 +27,13 @@ For testing and compilation of this source code the external toolchain from Netg
 
 Important Note:
 
-The toolchain is 32bit. To use it on 64-bit multi-architecture OS, you need to add the i386 architecture and install 3 library packages. For Ubuntu 14.04 you have to execute the following commands:
+The toolchain is 32bit. To use it on 64-bit multi-architecture OS, you need to add the i386 architecture and install 3 library packages. For Debian 11 you have to execute the following commands:
 
+0. sudo apt install vim git build-essential bison flex
 1. sudo dpkg --add-architecture i386
 2. sudo apt-get update
 3. sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+
 
 Aside of this, you can use a native 32bit (Ubuntu) OS.
 
