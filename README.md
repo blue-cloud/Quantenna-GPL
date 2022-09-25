@@ -44,9 +44,9 @@ How-to install/compile:
 
 The following procedure describes a "build-from-scratch" with the allreay given "default" configuration (topaz_rgmii_config)
 
-1. git clone https://github.com/christianheyl/Quantenna-GPL.git quantenna-GPL
+1. git clone https://github.com/blue-cloud/Quantenna-GPL
 2. cd quantenna-GPL
-3. sudo tar jxvf ARC.tar.bz2 -C /
+3. sudo tar jxvf ARC.tar.bz2 -C /usr/local/
 6. make topaz_rgmii_config
 7. make fromscratch
 
