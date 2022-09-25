@@ -44,9 +44,7 @@ The following procedure describes a "build-from-scratch" with the allreay given 
 
 1. git clone https://github.com/christianheyl/Quantenna-GPL.git quantenna-GPL
 2. cd quantenna-GPL
-3. copy Qenvinstaller.bin to this folder
-4. chmod a+x Qenvinstaller.bin
-5. ./Qenvinstaller.bin
+3. sudo tar jxvf ARC.tar.bz2 -C /
 6. make topaz_rgmii_config
 7. make fromscratch
 
