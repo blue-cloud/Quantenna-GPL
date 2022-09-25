@@ -29,7 +29,7 @@ Important Note:
 
 The toolchain is 32bit. To use it on 64-bit multi-architecture OS, you need to add the i386 architecture and install 3 library packages. For Debian 11 you have to execute the following commands:
 
-0. sudo apt install vim git build-essential bison flex
+0. sudo apt install vim git build-essential bison flex gettext texinfo
 1. sudo dpkg --add-architecture i386
 2. sudo apt-get update
 3. sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
