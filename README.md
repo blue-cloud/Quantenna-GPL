@@ -23,13 +23,13 @@ Missing (external toolchain):
 To obtain (the pre-compiled, external) toolchain you can either inquire it from Arcadyan (Astoria), mail to opensource@arcadyan.com, or you can use one from another QTN-based/QTN-using device, like Netgear R7500 (URL: https://www.downloads.netgear.com/files/GPL/R7500-and_qtn_gpl_src_v1.0.0.124.tar.bz2.zip) or ZyXEL VMG9823-B10A (you have to inquire it yourself)
 
 For testing and compilation of this source code the external toolchain from Netgear's R7500 was used. You need the QEnvInstaller.bin file (rename it to Qenvinstaller.bin) from their Quantenna GPL tarball.
-
+QEnvinstaller.bin is converted to ARC.tar.bz2.
 
 Important Note:
 
-The toolchain is 32bit. To use it on 64-bit multi-architecture OS, you need to add the i386 architecture and install 3 library packages. For Debian 11 you have to execute the following commands:
+The toolchain is 32bit. To use it on 64-bit multi-architecture OS, you need to add the i386 architecture and install 3 library packages. For Debian 11 / Ubuntu 20.04 you have to execute the following commands:
 
-0. sudo apt install vim git build-essential bison flex gettext texinfo
+0. sudo apt install vim git build-essential bison flex gettext texinfo cpio
 1. sudo dpkg --add-architecture i386
 2. sudo apt-get update
 3. sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
